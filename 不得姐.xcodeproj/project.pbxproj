@@ -7,25 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F350B3F33255939A4C61EEE /* Pods____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C351BA8C4A641426922B81 /* Pods____.framework */; };
 		BE92927D1C7967EE000F47A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE92927C1C7967EE000F47A9 /* main.m */; };
 		BE9292801C7967EE000F47A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE92927F1C7967EE000F47A9 /* AppDelegate.m */; };
-		BE9292831C7967EE000F47A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9292821C7967EE000F47A9 /* ViewController.m */; };
-		BE9292861C7967EE000F47A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9292841C7967EE000F47A9 /* Main.storyboard */; };
 		BE9292881C7967EE000F47A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9292871C7967EE000F47A9 /* Assets.xcassets */; };
-		BE92928B1C7967EE000F47A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9292891C7967EE000F47A9 /* LaunchScreen.storyboard */; };
+		BE9292981C796DA0000F47A9 /* WMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9292971C796DA0000F47A9 /* WMTabBarController.m */; };
+		BE92929E1C797BC5000F47A9 /* WMNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE92929D1C797BC5000F47A9 /* WMNewViewController.m */; };
+		BE9292A11C797C0A000F47A9 /* WMEssenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9292A01C797C0A000F47A9 /* WMEssenseViewController.m */; };
+		BE9292A41C797C1D000F47A9 /* WMFriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9292A31C797C1D000F47A9 /* WMFriendTrendViewController.m */; };
+		BE9292A71C797C2A000F47A9 /* WMMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9292A61C797C2A000F47A9 /* WMMeViewController.m */; };
+		BE9292AB1C799534000F47A9 /* WMNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9292AA1C799534000F47A9 /* WMNavController.m */; };
+		BE9292AE1C79A618000F47A9 /* WMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9292AD1C79A618000F47A9 /* WMTabBar.m */; };
+		BE9292B11C79BE20000F47A9 /* WMTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9292B01C79BE20000F47A9 /* WMTestViewController.m */; };
+		BE9292B31C817494000F47A9 /* WMFriendTrendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9292B21C817494000F47A9 /* WMFriendTrendViewController.xib */; };
+		BE9292BE1C8183E2000F47A9 /* WMRecommendCategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9292BC1C8183E2000F47A9 /* WMRecommendCategoryController.m */; };
+		BE9292BF1C8183E2000F47A9 /* WMRecommendCategoryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9292BD1C8183E2000F47A9 /* WMRecommendCategoryController.xib */; };
+		BE9292C31C81872F000F47A9 /* WMRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9292C11C81872F000F47A9 /* WMRecommendCategoryCell.m */; };
+		BE9292C41C81872F000F47A9 /* WMRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE9292C21C81872F000F47A9 /* WMRecommendCategoryCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2622D372B0B54442A789C586 /* Pods-不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-不得姐/Pods-不得姐.debug.xcconfig"; sourceTree = "<group>"; };
+		89C351BA8C4A641426922B81 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1339F76F7B628993ECE5557 /* Pods-不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-不得姐/Pods-不得姐.release.xcconfig"; sourceTree = "<group>"; };
 		BE9292781C7967ED000F47A9 /* 不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE92927C1C7967EE000F47A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE92927E1C7967EE000F47A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE92927F1C7967EE000F47A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BE9292811C7967EE000F47A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BE9292821C7967EE000F47A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BE9292851C7967EE000F47A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE9292871C7967EE000F47A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BE92928A1C7967EE000F47A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE92928C1C7967EE000F47A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9292961C796DA0000F47A9 /* WMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMTabBarController.h; path = ../WMTabBarController.h; sourceTree = "<group>"; };
+		BE9292971C796DA0000F47A9 /* WMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMTabBarController.m; path = ../WMTabBarController.m; sourceTree = "<group>"; };
+		BE92929C1C797BC5000F47A9 /* WMNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMNewViewController.h; sourceTree = "<group>"; };
+		BE92929D1C797BC5000F47A9 /* WMNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNewViewController.m; sourceTree = "<group>"; };
+		BE92929F1C797C0A000F47A9 /* WMEssenseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMEssenseViewController.h; path = ../WMEssenseViewController.h; sourceTree = "<group>"; };
+		BE9292A01C797C0A000F47A9 /* WMEssenseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMEssenseViewController.m; path = ../WMEssenseViewController.m; sourceTree = "<group>"; };
+		BE9292A21C797C1D000F47A9 /* WMFriendTrendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMFriendTrendViewController.h; path = ../WMFriendTrendViewController.h; sourceTree = "<group>"; };
+		BE9292A31C797C1D000F47A9 /* WMFriendTrendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMFriendTrendViewController.m; path = ../WMFriendTrendViewController.m; sourceTree = "<group>"; };
+		BE9292A51C797C2A000F47A9 /* WMMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMMeViewController.h; path = ../WMMeViewController.h; sourceTree = "<group>"; };
+		BE9292A61C797C2A000F47A9 /* WMMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMMeViewController.m; path = ../WMMeViewController.m; sourceTree = "<group>"; };
+		BE9292A81C797DF1000F47A9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		BE9292A91C799534000F47A9 /* WMNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMNavController.h; sourceTree = "<group>"; };
+		BE9292AA1C799534000F47A9 /* WMNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNavController.m; sourceTree = "<group>"; };
+		BE9292AC1C79A618000F47A9 /* WMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMTabBar.h; path = ../WMTabBar.h; sourceTree = "<group>"; };
+		BE9292AD1C79A618000F47A9 /* WMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMTabBar.m; path = ../WMTabBar.m; sourceTree = "<group>"; };
+		BE9292AF1C79BE20000F47A9 /* WMTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTestViewController.h; sourceTree = "<group>"; };
+		BE9292B01C79BE20000F47A9 /* WMTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTestViewController.m; sourceTree = "<group>"; };
+		BE9292B21C817494000F47A9 /* WMFriendTrendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMFriendTrendViewController.xib; sourceTree = SOURCE_ROOT; };
+		BE9292BB1C8183E2000F47A9 /* WMRecommendCategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMRecommendCategoryController.h; sourceTree = "<group>"; };
+		BE9292BC1C8183E2000F47A9 /* WMRecommendCategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMRecommendCategoryController.m; sourceTree = "<group>"; };
+		BE9292BD1C8183E2000F47A9 /* WMRecommendCategoryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMRecommendCategoryController.xib; sourceTree = "<group>"; };
+		BE9292C01C81872F000F47A9 /* WMRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMRecommendCategoryCell.h; sourceTree = "<group>"; };
+		BE9292C11C81872F000F47A9 /* WMRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMRecommendCategoryCell.m; sourceTree = "<group>"; };
+		BE9292C21C81872F000F47A9 /* WMRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WMRecommendCategoryCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F350B3F33255939A4C61EEE /* Pods____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		115A535DEBC2AAF70AEED11D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89C351BA8C4A641426922B81 /* Pods____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		763AF66D962A1D320B58627D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2622D372B0B54442A789C586 /* Pods-不得姐.debug.xcconfig */,
+				B1339F76F7B628993ECE5557 /* Pods-不得姐.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BE92926F1C7967ED000F47A9 = {
 			isa = PBXGroup;
 			children = (
 				BE92927A1C7967ED000F47A9 /* 不得姐 */,
 				BE9292791C7967ED000F47A9 /* Products */,
+				763AF66D962A1D320B58627D /* Pods */,
+				115A535DEBC2AAF70AEED11D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,15 +112,35 @@
 		BE92927A1C7967ED000F47A9 /* 不得姐 */ = {
 			isa = PBXGroup;
 			children = (
+				BE9292AC1C79A618000F47A9 /* WMTabBar.h */,
+				BE9292AD1C79A618000F47A9 /* WMTabBar.m */,
+				BE9292A91C799534000F47A9 /* WMNavController.h */,
+				BE9292AA1C799534000F47A9 /* WMNavController.m */,
+				BE9292A81C797DF1000F47A9 /* PrefixHeader.pch */,
+				BE92929F1C797C0A000F47A9 /* WMEssenseViewController.h */,
+				BE9292A01C797C0A000F47A9 /* WMEssenseViewController.m */,
+				BE92929C1C797BC5000F47A9 /* WMNewViewController.h */,
+				BE92929D1C797BC5000F47A9 /* WMNewViewController.m */,
+				BE9292A21C797C1D000F47A9 /* WMFriendTrendViewController.h */,
+				BE9292A31C797C1D000F47A9 /* WMFriendTrendViewController.m */,
+				BE9292B21C817494000F47A9 /* WMFriendTrendViewController.xib */,
+				BE9292BB1C8183E2000F47A9 /* WMRecommendCategoryController.h */,
+				BE9292BC1C8183E2000F47A9 /* WMRecommendCategoryController.m */,
+				BE9292BD1C8183E2000F47A9 /* WMRecommendCategoryController.xib */,
+				BE9292C01C81872F000F47A9 /* WMRecommendCategoryCell.h */,
+				BE9292C11C81872F000F47A9 /* WMRecommendCategoryCell.m */,
+				BE9292C21C81872F000F47A9 /* WMRecommendCategoryCell.xib */,
+				BE9292A51C797C2A000F47A9 /* WMMeViewController.h */,
+				BE9292A61C797C2A000F47A9 /* WMMeViewController.m */,
+				BE9292961C796DA0000F47A9 /* WMTabBarController.h */,
+				BE9292971C796DA0000F47A9 /* WMTabBarController.m */,
 				BE92927E1C7967EE000F47A9 /* AppDelegate.h */,
 				BE92927F1C7967EE000F47A9 /* AppDelegate.m */,
-				BE9292811C7967EE000F47A9 /* ViewController.h */,
-				BE9292821C7967EE000F47A9 /* ViewController.m */,
-				BE9292841C7967EE000F47A9 /* Main.storyboard */,
 				BE9292871C7967EE000F47A9 /* Assets.xcassets */,
-				BE9292891C7967EE000F47A9 /* LaunchScreen.storyboard */,
 				BE92928C1C7967EE000F47A9 /* Info.plist */,
 				BE92927B1C7967ED000F47A9 /* Supporting Files */,
+				BE9292AF1C79BE20000F47A9 /* WMTestViewController.h */,
+				BE9292B01C79BE20000F47A9 /* WMTestViewController.m */,
 			);
 			path = "不得姐";
 			sourceTree = "<group>";
@@ -86,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE92928F1C7967EE000F47A9 /* Build configuration list for PBXNativeTarget "不得姐" */;
 			buildPhases = (
+				51163449EC54B44B9EC78974 /* Check Pods Manifest.lock */,
 				BE9292741C7967ED000F47A9 /* Sources */,
 				BE9292751C7967ED000F47A9 /* Frameworks */,
 				BE9292761C7967ED000F47A9 /* Resources */,
+				02A130D4010EA523F5B86FC0 /* Embed Pods Frameworks */,
+				28FC982A5A8CEAEE4FA57434 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +182,7 @@
 		BE9292701C7967ED000F47A9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = WM;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wan;
 				TargetAttributes = {
@@ -137,45 +215,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE92928B1C7967EE000F47A9 /* LaunchScreen.storyboard in Resources */,
+				BE9292C41C81872F000F47A9 /* WMRecommendCategoryCell.xib in Resources */,
+				BE9292BF1C8183E2000F47A9 /* WMRecommendCategoryController.xib in Resources */,
+				BE9292B31C817494000F47A9 /* WMFriendTrendViewController.xib in Resources */,
 				BE9292881C7967EE000F47A9 /* Assets.xcassets in Resources */,
-				BE9292861C7967EE000F47A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02A130D4010EA523F5B86FC0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-不得姐/Pods-不得姐-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28FC982A5A8CEAEE4FA57434 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-不得姐/Pods-不得姐-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51163449EC54B44B9EC78974 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BE9292741C7967ED000F47A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE9292831C7967EE000F47A9 /* ViewController.m in Sources */,
+				BE9292A11C797C0A000F47A9 /* WMEssenseViewController.m in Sources */,
+				BE9292AB1C799534000F47A9 /* WMNavController.m in Sources */,
+				BE9292B11C79BE20000F47A9 /* WMTestViewController.m in Sources */,
+				BE92929E1C797BC5000F47A9 /* WMNewViewController.m in Sources */,
+				BE9292C31C81872F000F47A9 /* WMRecommendCategoryCell.m in Sources */,
+				BE9292A71C797C2A000F47A9 /* WMMeViewController.m in Sources */,
 				BE9292801C7967EE000F47A9 /* AppDelegate.m in Sources */,
+				BE9292981C796DA0000F47A9 /* WMTabBarController.m in Sources */,
+				BE9292AE1C79A618000F47A9 /* WMTabBar.m in Sources */,
+				BE9292BE1C8183E2000F47A9 /* WMRecommendCategoryController.m in Sources */,
+				BE9292A41C797C1D000F47A9 /* WMFriendTrendViewController.m in Sources */,
 				BE92927D1C7967EE000F47A9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		BE9292841C7967EE000F47A9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE9292851C7967EE000F47A9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BE9292891C7967EE000F47A9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE92928A1C7967EE000F47A9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BE92928D1C7967EE000F47A9 /* Debug */ = {
@@ -260,8 +377,11 @@
 		};
 		BE9292901C7967EE000F47A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2622D372B0B54442A789C586 /* Pods-不得姐.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = "不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yihaojf.www.---";
@@ -271,8 +391,11 @@
 		};
 		BE9292911C7967EE000F47A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1339F76F7B628993ECE5557 /* Pods-不得姐.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = "不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yihaojf.www.---";
@@ -299,6 +422,7 @@
 				BE9292911C7967EE000F47A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WMFriendTrendViewController">
+            <connections>
+                <outlet property="view" destination="LfG-wr-TdQ" id="KK9-sH-egK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="LfG-wr-TdQ">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_cry_icon" translatesAutoresizingMaskIntoConstraints="NO" id="jtU-9k-RQ9">
+                    <rect key="frame" x="276" y="162" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="O0v-dX-gc3"/>
+                        <constraint firstAttribute="width" constant="48" id="pvh-Ja-eYR"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3w-6V-QRK">
+                    <rect key="frame" x="180" y="270" width="240" height="61"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="nAB-YU-yAg"/>
+                    </constraints>
+                    <string key="text">快快登陆吧，关注百思最in牛人
+好友动态让你过把瘾儿~~~
+噢耶~~~！</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.70741673519736847" green="0.65301192434210531" blue="0.44741981907894735" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7k5-le-097">
+                    <rect key="frame" x="179" y="371" width="243" height="48"/>
+                    <color key="backgroundColor" red="0.98553898360000003" green="0.2041003686" blue="0.27354628279999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="243" id="Q9i-gE-w69"/>
+                        <constraint firstAttribute="height" constant="48" id="czG-nA-uUF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="立即登录注册" backgroundImage="friendsTrend_login">
+                        <color key="titleColor" red="0.94923847853535359" green="0.18800140635924964" blue="0.25357728207830893" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" title="立即登录注册" backgroundImage="friendsTrend_login_click">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="jtU-9k-RQ9" firstAttribute="centerY" secondItem="LfG-wr-TdQ" secondAttribute="centerY" id="3jF-H5-c3n"/>
+                <constraint firstItem="jtU-9k-RQ9" firstAttribute="centerX" secondItem="LfG-wr-TdQ" secondAttribute="centerX" id="8nX-8H-HO2"/>
+                <constraint firstItem="7k5-le-097" firstAttribute="top" secondItem="p3w-6V-QRK" secondAttribute="bottom" constant="40" id="ITQ-AD-yQJ"/>
+                <constraint firstItem="7k5-le-097" firstAttribute="centerX" secondItem="LfG-wr-TdQ" secondAttribute="centerX" id="LUp-YR-OZw"/>
+                <constraint firstItem="7k5-le-097" firstAttribute="top" secondItem="p3w-6V-QRK" secondAttribute="bottom" constant="30" id="Nmf-XL-gPN"/>
+                <constraint firstItem="jtU-9k-RQ9" firstAttribute="top" secondItem="LfG-wr-TdQ" secondAttribute="top" constant="110" id="TyJ-69-ECw"/>
+                <constraint firstItem="p3w-6V-QRK" firstAttribute="top" secondItem="jtU-9k-RQ9" secondAttribute="bottom" constant="30" id="XhY-6W-yBy"/>
+                <constraint firstItem="p3w-6V-QRK" firstAttribute="top" secondItem="jtU-9k-RQ9" secondAttribute="bottom" constant="61" id="Y0o-bj-xKc"/>
+                <constraint firstItem="p3w-6V-QRK" firstAttribute="centerX" secondItem="LfG-wr-TdQ" secondAttribute="centerX" id="edF-m9-aY6"/>
+                <constraint firstItem="p3w-6V-QRK" firstAttribute="top" secondItem="jtU-9k-RQ9" secondAttribute="bottom" constant="60" id="rno-OR-DW2"/>
+                <constraint firstItem="p3w-6V-QRK" firstAttribute="centerY" secondItem="LfG-wr-TdQ" secondAttribute="centerY" id="v09-1K-6ni"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="3jF-H5-c3n"/>
+                    <exclude reference="TyJ-69-ECw"/>
+                    <exclude reference="XhY-6W-yBy"/>
+                    <exclude reference="Y0o-bj-xKc"/>
+                    <exclude reference="Nmf-XL-gPN"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="320" y="230"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="friendsTrend_login" width="243" height="48"/>
+        <image name="friendsTrend_login_click" width="243" height="48"/>
+        <image name="header_cry_icon" width="48" height="48"/>
+    </resources>
+</document>
