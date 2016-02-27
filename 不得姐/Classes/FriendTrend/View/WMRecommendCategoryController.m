@@ -9,23 +9,40 @@
 #import "WMRecommendCategoryController.h"
 #import "WMRecommendCategoryCell.h"
 #import <AFNetworking/AFNetworking.h>
+#import <MJExtension/MJExtension.h>
+#import <SVProgressHUD/SVProgressHUD.h>
 
 
 @interface WMRecommendCategoryController ()<UITableViewDataSource>
+@property (weak, nonatomic) IBOutlet UITableView *categoryTableView;
+
+
+/** 分类模型数组 */
+@property (nonatomic,strong) NSArray  *categoryArray;
 
 @end
 
 @implementation WMRecommendCategoryController
+
+
+static NSString *categoryId = @"categorycell";
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"推荐关注";
     self.view.backgroundColor = WMVIEWBACKGROND(215, 215, 215);
     
+    [self registerCell];
+    
     [self sendRequest];
 //    WMRecommendCategoryCell *cell = [NSBundle mainBundle] ;
 }
 
+-(void)registerCell
+{
+    [self.categoryTableView registerNib:[UINib nibWithNibName:NSStringFromClass([WMRecommendCategoryCell class]) bundle:nil] forCellReuseIdentifier:categoryId];
+}
 
 -(void)sendRequest
 {
@@ -38,12 +55,18 @@
     params[@"c"] =@"subscribe";
     //get请求；
     
+    [SVProgressHUD show];
     [session GET:baseUrl parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {
         WMLog(@"progress!");
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        [SVProgressHUD dismiss];
         
-        WMLog(@"%@",responseObject);
+//        WMLog(@"%@",responseObject[@"list"]);
+        self.categoryArray = [WMCategory mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
+        [self.categoryTableView reloadData];
+        
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        [SVProgressHUD dismiss];
         WMLog(@"FAIL:%@",error);
     }];
 
@@ -52,25 +75,18 @@
 #pragma mark - <UITableViewDataSource>
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    return self.categoryArray.count;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"categorycell"];
+    WMRecommendCategoryCell *cell = [tableView dequeueReusableCellWithIdentifier:categoryId];
+    
+    cell.cateName = self.categoryArray[indexPath.row];
     
     return cell;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

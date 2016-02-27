@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WMCategory.h"
 
 @interface WMRecommendCategoryCell : UITableViewCell
-
+/** 推荐的分类 */
+@property (nonatomic,strong) WMCategory  *cateName;
 @end

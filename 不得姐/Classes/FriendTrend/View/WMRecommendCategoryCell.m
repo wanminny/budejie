@@ -14,6 +14,15 @@
     // Initialization code
 }
 
+
+- (void)setCateName:(WMCategory *)cateName
+{
+    _cateName = cateName;
+    
+    self.textLabel.text = cateName.name;
+    
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
