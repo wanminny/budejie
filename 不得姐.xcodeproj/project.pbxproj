@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4F350B3F33255939A4C61EEE /* Pods____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C351BA8C4A641426922B81 /* Pods____.framework */; };
+		BE6C1F751C81A35D00D14323 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6C1F741C81A35C00D14323 /* Foundation+Log.m */; };
 		BE92927D1C7967EE000F47A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE92927C1C7967EE000F47A9 /* main.m */; };
 		BE9292801C7967EE000F47A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE92927F1C7967EE000F47A9 /* AppDelegate.m */; };
 		BE9292881C7967EE000F47A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9292871C7967EE000F47A9 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		2622D372B0B54442A789C586 /* Pods-不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-不得姐/Pods-不得姐.debug.xcconfig"; sourceTree = "<group>"; };
 		89C351BA8C4A641426922B81 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1339F76F7B628993ECE5557 /* Pods-不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-不得姐/Pods-不得姐.release.xcconfig"; sourceTree = "<group>"; };
+		BE6C1F741C81A35C00D14323 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		BE9292781C7967ED000F47A9 /* 不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE92927C1C7967EE000F47A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BE92927E1C7967EE000F47A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		BE92927A1C7967ED000F47A9 /* 不得姐 */ = {
 			isa = PBXGroup;
 			children = (
+				BE6C1F741C81A35C00D14323 /* Foundation+Log.m */,
 				BE9292AC1C79A618000F47A9 /* WMTabBar.h */,
 				BE9292AD1C79A618000F47A9 /* WMTabBar.m */,
 				BE9292A91C799534000F47A9 /* WMNavController.h */,
@@ -287,6 +290,7 @@
 				BE9292981C796DA0000F47A9 /* WMTabBarController.m in Sources */,
 				BE9292AE1C79A618000F47A9 /* WMTabBar.m in Sources */,
 				BE9292BE1C8183E2000F47A9 /* WMRecommendCategoryController.m in Sources */,
+				BE6C1F751C81A35D00D14323 /* Foundation+Log.m in Sources */,
 				BE9292A41C797C1D000F47A9 /* WMFriendTrendViewController.m in Sources */,
 				BE92927D1C7967EE000F47A9 /* main.m in Sources */,
 			);

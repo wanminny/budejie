@@ -36,20 +36,7 @@
     
     params[@"a"] = @"category";
     params[@"c"] =@"subscribe";
-    
-//    ///
-    /*!
-     *  @author wan, 16-02-27 17:02:06
-     *
-     *  @brief <#Description#>
-     *
-     *  @param downloadProgress <#downloadProgress description#>
-     *
-     *  @return <#return value description#>
-     *
-     *  @since <#version number#>
-     */
-    
+    //get请求；
     
     [session GET:baseUrl parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {
         WMLog(@"progress!");
@@ -59,12 +46,7 @@
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         WMLog(@"FAIL:%@",error);
     }];
-//
-//    [session GET:baseUrl parameters:params success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-//        WMLog(@"success");
-//    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-//        WMLog(@"失败");
-//    }];
+
 }
 
 #pragma mark - <UITableViewDataSource>
