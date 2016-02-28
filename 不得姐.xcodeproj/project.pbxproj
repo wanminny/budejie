@@ -26,6 +26,9 @@
 		BE6C1FBA1C81BBEC00D14323 /* WMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6C1FAA1C81BBEC00D14323 /* WMTabBar.m */; };
 		BE9292881C7967EE000F47A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE9292871C7967EE000F47A9 /* Assets.xcassets */; };
 		BE9292B11C79BE20000F47A9 /* WMTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9292B01C79BE20000F47A9 /* WMTestViewController.m */; };
+		BEFEA6031C82EE3500C0714E /* WMRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFEA6011C82EE3500C0714E /* WMRecommendUserCell.m */; };
+		BEFEA6041C82EE3500C0714E /* WMRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEFEA6021C82EE3500C0714E /* WMRecommendUserCell.xib */; };
+		BEFEA6071C82FBA900C0714E /* WMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFEA6061C82FBA900C0714E /* WMUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +68,11 @@
 		BE92928C1C7967EE000F47A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE9292AF1C79BE20000F47A9 /* WMTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTestViewController.h; sourceTree = "<group>"; };
 		BE9292B01C79BE20000F47A9 /* WMTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTestViewController.m; sourceTree = "<group>"; };
+		BEFEA6001C82EE3500C0714E /* WMRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WMRecommendUserCell.h; path = ../Controller/WMRecommendUserCell.h; sourceTree = "<group>"; };
+		BEFEA6011C82EE3500C0714E /* WMRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WMRecommendUserCell.m; path = ../Controller/WMRecommendUserCell.m; sourceTree = "<group>"; };
+		BEFEA6021C82EE3500C0714E /* WMRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WMRecommendUserCell.xib; path = ../Controller/WMRecommendUserCell.xib; sourceTree = "<group>"; };
+		BEFEA6051C82FBA900C0714E /* WMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMUser.h; sourceTree = "<group>"; };
+		BEFEA6061C82FBA900C0714E /* WMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +177,8 @@
 			children = (
 				BE6C1F861C81BBEC00D14323 /* WMCategory.h */,
 				BE6C1F871C81BBEC00D14323 /* WMCategory.m */,
+				BEFEA6051C82FBA900C0714E /* WMUser.h */,
+				BEFEA6061C82FBA900C0714E /* WMUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,6 +186,9 @@
 		BE6C1F881C81BBEC00D14323 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BEFEA6001C82EE3500C0714E /* WMRecommendUserCell.h */,
+				BEFEA6011C82EE3500C0714E /* WMRecommendUserCell.m */,
+				BEFEA6021C82EE3500C0714E /* WMRecommendUserCell.xib */,
 				BE6C1F891C81BBEC00D14323 /* WMRecommendCategoryCell.h */,
 				BE6C1F8A1C81BBEC00D14323 /* WMRecommendCategoryCell.m */,
 				BE6C1F8B1C81BBEC00D14323 /* WMRecommendCategoryCell.xib */,
@@ -400,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE6C1FAD1C81BBEC00D14323 /* WMFriendTrendViewController.xib in Resources */,
+				BEFEA6041C82EE3500C0714E /* WMRecommendUserCell.xib in Resources */,
 				BE6C1FB01C81BBEC00D14323 /* WMRecommendCategoryCell.xib in Resources */,
 				BE6C1FB21C81BBEC00D14323 /* WMRecommendCategoryController.xib in Resources */,
 				BE9292881C7967EE000F47A9 /* Assets.xcassets in Resources */,
@@ -467,10 +481,12 @@
 				BE6C1FB11C81BBEC00D14323 /* WMRecommendCategoryController.m in Sources */,
 				BE6C1FB51C81BBEC00D14323 /* AppDelegate.m in Sources */,
 				BE6C1FBA1C81BBEC00D14323 /* WMTabBar.m in Sources */,
+				BEFEA6071C82FBA900C0714E /* WMUser.m in Sources */,
 				BE6C1FB61C81BBEC00D14323 /* Foundation+Log.m in Sources */,
 				BE6C1FB31C81BBEC00D14323 /* WMMeViewController.m in Sources */,
 				BE6C1FAB1C81BBEC00D14323 /* WMEssenseViewController.m in Sources */,
 				BE6C1FAF1C81BBEC00D14323 /* WMRecommendCategoryCell.m in Sources */,
+				BEFEA6031C82EE3500C0714E /* WMRecommendUserCell.m in Sources */,
 				BE6C1FB71C81BBEC00D14323 /* WMNavController.m in Sources */,
 				BE6C1FB41C81BBEC00D14323 /* WMNewViewController.m in Sources */,
 				BE6C1FB91C81BBEC00D14323 /* main.m in Sources */,
@@ -567,11 +583,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "不得姐/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yihaojf.www.---";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yihaojf.www.wwsds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -582,11 +599,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "不得姐/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yihaojf.www.---";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yihaojf.www.wwsds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
