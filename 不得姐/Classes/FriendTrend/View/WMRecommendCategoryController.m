@@ -61,8 +61,8 @@ static  NSString *userId = @"usercell";
 
 /*!
  *  @author wan, 16-02-29 17:02:15
- *  
- *  @brief test github     关联GITHUB测试
+ *
+ *  @brief test github       关联GITHUB测试
  *
  *  @since <#version number#>
  */
