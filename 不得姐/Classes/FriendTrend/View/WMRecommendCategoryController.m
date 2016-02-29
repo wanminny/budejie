@@ -59,6 +59,13 @@ static  NSString *userId = @"usercell";
     [self.userTableView registerNib:[UINib nibWithNibName:NSStringFromClass([WMRecommendUserCell  class])bundle:nil] forCellReuseIdentifier:userId ];
 }
 
+/*!
+ *  @author wan, 16-02-29 17:02:15
+ *
+ *  @brief test
+ *
+ *  @since <#version number#>
+ */
 -(void)sendRequest
 {
 
